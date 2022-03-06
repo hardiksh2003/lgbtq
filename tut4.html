@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundary Form</title>
+    <style>
+        input[type=reset], input[type=submit]{
+            background-color: #04AA6D;
+            cursor: pointer;
+        }
+        body{background-color:rgb(195 218 218);
+        font-size: xx-large;}
+        h1 {text-align: center;
+        color:blueviolet}
+        .container{
+            width:900px;
+            border:10px solid black;
+            margin:50px auto;
+            background : rgb(247, 247, 247);
+            height:890px;
+
+        }
+       
+        /* .hi{"position:absolute; left:80px;"} */
+    </style>
+</head>
+<body>
+    <div class=container>
+    <h1 ><span>Register</span></h1>
+    <hr>
+    <div style = "position:absolute; left:550px;">
+    <form action="backend.php">
+        
+        Name:<input type="text"><br><br>
+        Phone-Number:<input type="text"><br><br>
+        Email Id:<input type="text"><br><br>
+        State:<input type="text"><br><br>
+        <!-- GENDER:Male<input type=radio name = mygender>Female<input type=radio name=mygender><br><br> -->
+        <!-- SIZE:<input type="number"><br><br> -->
+        <!-- Number of Clothes:<input type="text"><br><br> -->
+        Why to apply:<br><textarea name="myText" cols="30"></textarea><br>
+        <input type="submit" value="SUBMIT NOW" >
+        <input type="reset" value="RESET NOW">
+    </div>
+    </form>
+</body>
+</html>
